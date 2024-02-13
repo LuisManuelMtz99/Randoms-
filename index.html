@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>San Valentin</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body oneclick='PlayAudio()'>
+  <main>
+    <div id="message">
+      <h1>Siempre supe que dirias que sí<br>Te Amo ♥</h1>
+      <img src="./assets/Gato2.gif" width="250" alt="Gato Love">
+    </div>
+    <img src="./assets/Gato1.gif" width="250" alt="Gato Love">
+    <h1>¿Quieres ser mi San Valentín Dulcezin?</h1>
+    <div class="options">
+      <button id="yes">Si</button>
+      <button id="no">No</button>
+    </div>
+<br><br>
+    <audio  id="audio1" autoplay controls loop> 
+        <source src="audio/Cuco - Melting [Cover] (Lyrics) (Sub. Español).mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+
+        function PlayAudio(){
+        document.getElementById('audio1').play();
+        }
+    </script>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
